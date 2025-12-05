@@ -1,0 +1,51 @@
+**Prompt**
+This week I learned:
+C++
+* Fundamental data types: int, floating points, char, etc
+* Derived data types: arrays, pointers, references
+*User-defined data types: structs, class, union
+
+Computer science
+*Data structure: arrays only
+
+Based on everything we have discussed in this chat, which includes questions and past practice problems.
+Could you create a hard practice problem that builds on all the concepts learned?
+
+**Problem**
+Create a program that simulates a simple online library system. The library holds books with information like 
+title, author, publication year, and genre (represented as a string). Users can perform the following actions:
+
+* Add a book: Prompt the user for book information (title, author, year, genre) and add it to the library's 
+collection (represented as an array of structs). Ensure the library doesn't already hold a book with the same 
+title and author (check for duplicates).
+
+* Search for a book: Allow users to search for books by title or author. The program should display all 
+matching books or indicate if no books are found.
+
+* Borrow a book: If a book is available (not already borrowed), mark it as borrowed and update the system.
+
+* Return a book: If a book is borrowed, mark it as available again.
+
+* List all books: Display information about all books in the library, including their availability status (borrowed or available).
+
+**Concepts Used**
+C++:
+* Data Types: Use int for year, string for title, author, and genre.
+* Structs: Create a struct named Book to store information about each book.
+* Arrays: Use an array of Book structs to represent the library collection.
+* Functions: Implement functions for each user action (add, search, borrow, return, list).
+* Loops: Use loops to iterate through the book array for searching and listing.
+* Conditional Statements: Use if statements to check for duplicates, availability, etc.
+
+Computer Science:
+* Data Structures: Utilize arrays to store the book collection.
+
+Difficulty:
+* This problem requires you to combine various C++ concepts to manage data, user interaction, and program flow. It also introduces 
+basic data structure usage with arrays.
+
+Tips:
+* Start by defining the Book struct with appropriate member variables.
+* Implement functions for each user action, focusing on clear logic and error handling.
+* Use loops and conditional statements to search for books and manage availability.
+* This problem challenges you to apply your understanding of C++ fundamentals and data structures to create a practical application.
