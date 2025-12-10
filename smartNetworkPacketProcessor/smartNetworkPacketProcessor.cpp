@@ -86,9 +86,9 @@ struct PacketHeader {
 
     bool isEncrypted() const {
         // TODO: Return the 8th bit
-        int flag = flags >> 7; 
+        int flags = flags >> 7; 
         int mask = 1; //0b1
-        int result = flag & mask;
+        int result = flags & mask;
         return result;
     }
 };
